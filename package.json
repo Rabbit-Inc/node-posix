@@ -1,5 +1,5 @@
 {
-    "name": "posix",
+    "name": "rabbit-posix",
     "version": "0.0.9",
     "description": "The missing POSIX system calls",
     "keywords" : [
@@ -8,12 +8,12 @@
         "getpgrp", "setsid", "setpgid", "getpwnam", "getgrnam", "uid", "gid",
         "syslog", "setlogmask"
     ],
-    "homepage": "http://github.com/melor/node-posix",
+    "homepage": "http://github.com/Rabbit-Inc/node-posix.git",
     "repository" : {
         "type" : "git",
-        "url" : "git://github.com/melor/node-posix.git"
+        "url" : "https://github.com/Rabbit-Inc/node-posix.git"
     },
-    "author" : "Mika Eloranta <mel@ohmu.fi>",
+    "author" : "Santosh Kumar <santosh@rabbit.tv>",
     "main" : "./lib/posix",
     "dependencies" : {
     },
